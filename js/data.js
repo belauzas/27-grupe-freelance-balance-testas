@@ -13,4 +13,7 @@ const account = [
     { month: 12, expense: 200 }
 ];
 
-const monthName = [January, February, March, April, May, June, July, August, September, October, November, December]
+
+
+
+export { account }
