@@ -30,3 +30,5 @@ function monthsData() {
         { title: "gruodis" },
     ];
 }
+
+export { monthData }
