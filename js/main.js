@@ -20,6 +20,6 @@ for (let i = 0; i < month.length; i++) {
     month[i] = month[i - 1];
     account = month[i]
 
-
+bb
 }
 */
