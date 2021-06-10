@@ -14,3 +14,4 @@ const account = [
 ];
 
 const month = ["Sausis", "Vasaris", "Kovas", "Balandis", "Geguė", "Birželis", "Liepa", "Rugpjūtis", "Rugsėjis", "Spalis", "Lapkritis", "Gruodis"];
+console.log('sffsff')
