@@ -12,3 +12,26 @@ const account = [
     { month: 8, income: 450, expense: 120 },
     { month: 12, expense: 200 }
 ];
+
+const menesiai = ['Sausis', 'Vasaris', 'Kovas', 'Balandis', 'Gegužė', 'Birželis', 'Liepa', 'Rugpjūtis', 'Rugsėjis', 'Spalis', 'Lapkritis', 'Gruodis'];
+
+
+function sumOfMonth(income, expense) {
+    return income - expense;
+}
+
+
+const pirmas = sumOfMonth(150)
+const antras = sumOfMonth(200 - 50)
+const trec = sumOfMonth(450 - 200)
+const ketvirt = sumOfMonth(0 - 50)
+const penkt = sumOfMonth(50)
+const sest = sumOfMonth(150 - 50)
+const septin = sumOfMonth(700 - 400)
+const astun = sumOfMonth(10 - 300)
+const devin = sumOfMonth(0 - 50)
+const desimt = sumOfMonth(150 - 30)
+const vienuolik = sumOfMonth(450 - 120)
+const dvylikt = sumOfMonth(0 - 200)
+
+export { account }
