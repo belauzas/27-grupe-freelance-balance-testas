@@ -20,6 +20,7 @@ class function1 {
         const monthName = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
         let HTML = ''
 
+
         for (let i = 0; i < itemCount; i++) {
 
 
@@ -40,6 +41,7 @@ class function1 {
 
 
     }
+
 
 }
 
