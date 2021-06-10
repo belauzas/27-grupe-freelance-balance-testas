@@ -4,18 +4,18 @@ function renderMonth(selector) {
     let HTML = '';
 
     HTML += ` <div class="cell" id="month">Mėnuo
-                <h1>Sausis</h1>
-                <h1>Vasaris</h1>
-                <h1>Kovas</h1>
-                <h1>Balandis</h1>
-                <h1>Gegužė</h1>
-                <h1>Birželis</h1>
-                <h1>Liepa</h1>
-                <h1>Rugpjūtis</h1>
-                <h1>Rugsėjis</h1>
-                <h1>Spalis</h1>
-                <h1>Lapkritis</h1>
-                <h1>Gruodis</h1>
+                <h4>Sausis</h4>
+                <h4>Vasaris</h4>
+                <h4>Kovas</h4>
+                <h4>Balandis</h4>
+                <h4>Gegužė</h4>
+                <h4>Birželis</h4>
+                <h4>Liepa</h4>
+                <h4>Rugpjūtis</h4>
+                <h4>Rugsėjis</h4>
+                <h4>Spalis</h4>
+                <h4>Lapkritis</h4>
+                <h4>Gruodis</h4>
             </div> `;
 
     DOM.innerHTML = HTML;
