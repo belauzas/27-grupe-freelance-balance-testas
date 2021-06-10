@@ -8,8 +8,6 @@ function allYearCount(data) {
     const itemCount = data.length;
     const expenseArray = transformExpense();
     const incomeArray = transformIncome();
-    console.log(expenseArray);
-    console.log(incomeArray);
     let allYearIncome = 0;
     let allYearExpense = 0;
 
