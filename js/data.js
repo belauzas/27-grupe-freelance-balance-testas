@@ -14,16 +14,19 @@ const account = [
 ];
 
 const monthNames = {
-    1: 'January',
-    2: 'February',
-    3: 'March',
-    4: 'April',
-    5: 'May',
-    6: 'June',
-    7: 'July',
-    8: 'August',
-    9: 'September',
-    10: 'October',
-    11: 'November',
-    12: 'December'
+    1: 'Sausis',
+    2: 'Vasaris',
+    3: 'Kovas',
+    4: 'Balandis',
+    5: 'Gegužė',
+    6: 'Birželis',
+    7: 'Liepa',
+    8: 'Rugpjūtis',
+    9: 'Rugsėjis',
+    10: 'Spalis',
+    11: 'Lapkritis',
+    12: 'Gruodis'
 };
+
+export { account };
+export { monthNames };
