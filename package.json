@@ -1,0 +1,24 @@
+{
+  "name": "freelance-balance-testas",
+  "description": "1. Pasidaryti projekto fork'ą, kuris sukurs projekto kopiją jūsų paskiroje;",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server --port=3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mantodinas/27-grupe-freelance-balance-testas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mantodinas/27-grupe-freelance-balance-testas/issues"
+  },
+  "homepage": "https://github.com/mantodinas/27-grupe-freelance-balance-testas#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
