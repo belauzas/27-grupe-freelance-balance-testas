@@ -1,0 +1,26 @@
+{
+  "name": "27-grupe-freelance-balance-testas",
+  "version": "1.0.0",
+  "description": "1. Pasidaryti projekto fork'ą, kuris sukurs projekto kopiją jūsų paskiroje;",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server --port=3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sarunaskaz/27-grupe-freelance-balance-testas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sarunaskaz/27-grupe-freelance-balance-testas/issues"
+  },
+  "homepage": "https://github.com/Sarunaskaz/27-grupe-freelance-balance-testas#readme",
+  "devDependencies": {
+    "live": "^0.1.25-beta.0",
+    "server": "^1.0.33"
+  }
+}
