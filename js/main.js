@@ -4,22 +4,38 @@ import { month } from './data.js';
 function balansas() {
     account.sort(function (a, b) { return a.month - b.month });
     console.log(account);
-    let balansas = 0;
+    let balance = 0;
+    let income = 0;
+    let expense = 0;
+    let tableContent = '';
+    let monthIncome = 0;
+    let monthExpense = 0;
     for (let i = 0; i < account.length; i++) {
-        balansas += Number(account[i].income) - Number(account[i].expense);
-        console.log(i + 1, " ", month[i], "; Pajamos: ", account[i].income, "; Islaidos:", account[i].expense, "; balansas: ", balansas);
+        monthIncome = isNaN(account[i].income) ? 0 : account[i].income;
+        monthExpense = isNaN(account[i].expense) ? 0 : account[i].expense;
+        income += monthIncome
+        expense += monthExpense;
+        balance += monthIncome - monthExpense;
+        tableContent += `<div class="table-row">
+            <div class="cell">${i + 1}</div>
+            <div class="cell">${month[i]}</div>
+            <div class="cell">${monthIncome} Eur</div>
+            <div class="cell">${monthExpense} Eur</div>
+            <div class="cell">${monthIncome - monthExpense} Eur</div>
+        </div>`
+
     }
+
+    document.querySelector('#tableFooter').innerHTML =
+        `<div class="cell"></div>
+                    <div class="cell"></div>
+                    <div class="cell">${income} Eur</div>
+                    <div class="cell">${expense} Eur</div>
+                    <div class="cell">${balance} Eur</div>`;
+    document.querySelector('#tableContent').innerHTML = tableContent;
+
+
+
 }
 
 balansas();
-/*
-for (const month of data) {
-
-}
-for (let i = 0; i < month.length; i++) {
-    month[i] = month[i - 1];
-    account = month[i]
-
-bb
-}
-*/
