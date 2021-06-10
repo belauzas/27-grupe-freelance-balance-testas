@@ -1,0 +1,1 @@
+import { account } from './js/main.js';
