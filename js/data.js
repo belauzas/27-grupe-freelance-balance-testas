@@ -12,3 +12,23 @@ const account = [
     { month: 8, income: 450, expense: 120 },
     { month: 12, expense: 200 }
 ];
+
+function monthsData() {
+    const monthData = [
+
+        { title: "sausis" },
+        { title: "vasaris" },
+        { title: "kovas" },
+        { title: "balandis" },
+        { title: "geguze" },
+        { title: "birzelis" },
+        { title: "liepa" },
+        { title: "rugpjutis" },
+        { title: "rugseji" },
+        { title: "spalis" },
+        { title: "lapkritis" },
+        { title: "gruodis" },
+    ];
+}
+
+export { monthData }
